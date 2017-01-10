@@ -11,4 +11,5 @@ Redmine::Plugin.register :redmine_timesheet_log_user do
   version '0.0.1'
 
   permission :timelog_all_project_users, {}
+  permission :timelog_show_in_timelog_dropdown, {}
 end
