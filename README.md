@@ -1,11 +1,11 @@
 Redmine Plugin: Timesheet Log User
 ==================================
 
-Allows logging time on behalf of other Redmine users. 
+Modified version of https://github.com/evolvingweb/redmine_timesheet_log_user. 
 
-Note that it doesn't check any permissions, so only use this plugin if all
-redmine users are trusted. (Pull requests welcome!)
+Thanks to @dergachev and @vasi for the original project.
 
-Tested with Redmine 1.4 and 2.6.
+Added the ability to only allow certain roles to be able to add time for some users and to hide roles from dropdown unless they have permission to appear
 
-For an alternative approach, see [this patch against redmine core](http://www.redmine.org/issues/3848).
+Tested with Redmine 3.3.1.stable.15926.
+
